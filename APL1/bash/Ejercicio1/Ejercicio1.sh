@@ -1,5 +1,4 @@
 #!/bin/bash
-hola
 options=$(getopt -o d:a:p:h --l directorio,pantalla:,archivo:,help -- "$@" 2> /dev/null)
 if [ "$?" != "0" ] # equivale a:  if test "$?" != "0"
 then
